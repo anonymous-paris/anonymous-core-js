@@ -1,7 +1,18 @@
 {
-  "name": "@anonymous/core-js",
+  "name": "@anonymous-paris/core-js",
   "version": "0.0.1",
   "engines": {},
   "scripts": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": "Anonymous Paris Core js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anonymous-paris/anonymous-core-js.git"
+  },
+  "author": "Anonymous Paris <contact+npm@anonymous.paris> (http://anonymous.paris)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/anonymous-paris/anonymous-core-js/issues"
+  },
+  "homepage": "https://github.com/anonymous-paris/anonymous-core-js"
 }
