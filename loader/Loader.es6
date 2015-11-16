@@ -1,4 +1,4 @@
-import createjs from "lib/preloadjs/preloadjs-0.6.1.min.js";
+import createjs from "@anonymous-paris/core-js/lib/preloadjs/preloadjs-0.6.1.min.js";
 import Emitter from "Emitter";
 
 /**

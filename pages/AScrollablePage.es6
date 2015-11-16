@@ -1,5 +1,5 @@
 import APage from "./APage";
-import Stage from "lib/anonymous/core/Stage";
+import Stage from "@anonymous-paris/core-js/lib/anonymous/core/Stage";
 
 class AScrollablePage extends APage
 {

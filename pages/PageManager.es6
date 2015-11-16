@@ -1,11 +1,10 @@
 "use strict";
 
-import Config from "Config";
-import Router from "core/router/Router";
-import RouterEvent from "core/router/RouterEvent";
-import PageEvent from "pages/events/PageEvent";
+import Config from "@anonymous-paris/core-js/Config";
+import Router from "@anonymous-paris/core-js//router/Router";
+import RouterEvent from "@anonymous-paris/core-js//router/RouterEvent";
+import PageEvent from "@anonymous-paris/core-js/pages/events/PageEvent";
 import Emitter from "Emitter";
-import BicolorNav from "components/bicolornav/BicolorNav.es6";
 
 /**
  * PageManager
@@ -18,8 +17,6 @@ export default class PageManager
 		Emitter(this);
 
 		this._router = new Router();
-
-		this._bicolorNav = new BicolorNav($('.nav.container'));
 
 		this.init();
 	}
@@ -46,7 +43,6 @@ export default class PageManager
 		if(this._page && this._page.complete)
 			this._page.resize();
 			
-		this._bicolorNav.resize();
 
 	}
 
@@ -55,7 +51,6 @@ export default class PageManager
 		if(this._page && this._page.scroll && this._page.complete)
 			this._page.scroll();
 
-		this._bicolorNav.scroll();
 	}
 
 	//-----------------------------------------------------o private
@@ -130,7 +125,6 @@ export default class PageManager
 	_onPageShown()
 	{
 		//
-		this._bicolorNav.init();
 	}
 
 	_onPageHidden()

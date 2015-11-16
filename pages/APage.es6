@@ -1,6 +1,6 @@
-import Loader from "core/loader/Loader";
-import PageEvent from "pages/events/PageEvent";
-import Config from "Config";
+import Loader from "@anonymous-paris/core-js/loader/Loader";
+import PageEvent from "@anonymous-paris/core-js/pages/events/PageEvent";
+import Config from "@anonymous-paris/core-js/Config";
 import Emitter from "Emitter";
 
 export default class APage 

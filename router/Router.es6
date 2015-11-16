@@ -1,7 +1,7 @@
 /* globals History, ga */
 import Config from "Config";
-import Stage from "lib/anonymous/core/Stage";
-import MouseEvent from "lib/anonymous/events/MouseEvent";
+import Stage from "@anonymous-paris/core-js/lib/anonymous/core/Stage";
+import MouseEvent from "@anonymous-paris/core-js/lib/anonymous/events/MouseEvent";
 import RouterEvent from "./RouterEvent";
 import Emitter from "Emitter";
 
